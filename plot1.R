@@ -23,4 +23,4 @@ data$Time <- strptime(data$TimeDate, format = "%Y-%m-%d %H:%M:%S")
 png("plot1.png")
 hist(data$Global_active_power, col = "red", xlab = "Global Active Power (kilowatts)", 
      ylab = "Frequency", main = "Global Active Power")
-dev.off
+dev.off()
